@@ -5,8 +5,6 @@
 - 2 interfaces réseau (LAN + WAN simulé)  
 - Aucun DNS à mettre en place (non demandé)
 
----
-
 # 🖥️ ÉTAPE 1 — INSTALLATION ET CONFIGURATION DU SERVEUR
 
 ## 1.1 Création de la machine virtuelle
@@ -19,7 +17,6 @@
     - RAM : 1024 à 2048 Mo
     - Disque : 10 Go (VDI dynamique)
 
-    ---
 
 ## 1.2 Configuration réseau (AVANT installation)
 
@@ -29,9 +26,6 @@
     | Carte 2 | Réseau interne | extnet | WAN simulé | 150.10.0.1 |
     | Carte 3 (temp.) | NAT | — | Internet (installation) | DHCP |
 
-    ⚠️ Supprimer la carte NAT après installation et mises à jour.
-
-    ---
 
 ## 1.3 Installation Debian minimale
 
